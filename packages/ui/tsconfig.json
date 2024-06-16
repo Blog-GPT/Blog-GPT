@@ -1,0 +1,10 @@
+{
+  "extends": "@blog-gpt/tsconfig/react-lib.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
